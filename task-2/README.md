@@ -33,5 +33,5 @@ $tokenInfo = file_get_contents(
 1. I believe the code is not working because it is sending a GET request, but according to the documentation, the endpoint only accepts POST requests.
 2. The code is sending query string parameters, but if the endpoint only accepts POST requests, I think it only accepts body parameters and it's not secure to send user data using query string parameters.
 3. Parameters should not be hardcoded.
-4. Concatenated parameters can be improved e.g. using http_build_query function.
+4. Concatenated parameters can be improved e.g. using `http_build_query` function.
 5. I would change the variable name to $responseBody because it more accurately describes the contents of the variable.
