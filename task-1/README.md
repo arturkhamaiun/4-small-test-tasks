@@ -9,10 +9,12 @@ As a user I want to store user data to a data storage so that I can access it la
 ### Example data
 The Product Manager defined the needed user data to contain IDs (string; for example a GUID) and names (string).
 
+```
 ID Name
 8a8e519b-8768-48d9-90c0-81569d3ded9b Matt Damon
 68c68470-f25f-4ce4-bbf4-05f50bd82fc4 Johny Bravo
 60bb0ca5-25d1-43bd-98e5-6a878c00a0d8 Rafael Nadal
+```
 
 ### Requirements
 Your solution must be able to 1) add new users to the storage, and 2) find a user from the storage for an ID. Please avoid using
