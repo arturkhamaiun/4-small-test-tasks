@@ -1,4 +1,4 @@
-### Task
+### Task "Legacy Code Refactoring"
 Refactor the following piece of legacy code.
 
 You do not need to write code, you may instead describe all the problems you see and how you would refactor this legacy piece of
